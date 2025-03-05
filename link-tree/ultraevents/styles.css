@@ -1,0 +1,84 @@
+body {
+   display: block;
+   height: 110vh;
+   background: linear-gradient(180deg,
+  #0269ca,
+  #c4bcbc
+  );
+}
+main {
+  height: 100vh;
+}
+#Ultra-text {
+  text-align: center;
+  font-family:Karla, sans-serif;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 180px;
+}
+
+#Ultra {
+  display: block;
+  top: 20px;
+  height: 100px;
+  position: relative;
+  border-radius: 50px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.box {
+  width: 600px;
+  text-decoration: none;
+  max-width: 100%;
+  font-family: Karla, sans-serif;
+  position: relative;
+  display: block;
+  border: 2.5px solid white;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 35px;
+}
+#box1 {
+  top: 100px;
+}
+.box:hover {
+  animation-name: color;
+    animation-duration: 300ms;
+  animation-fill-mode: forwards;
+  color: black;
+}
+@keyframes color {
+  100% {
+    background-color: white
+  }
+}
+.link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+#box2 {
+  top: 175px;
+}
+#box3 {
+  top: 250px;
+    }
+#box4 {
+  top: 325px;
+    }
+ #box5 {
+  top: 400px;
+    }
+#box6 {
+  top: 475px;
+    }
+#box7 {
+  top: 550px;
+    }
+#box8 {
+  top: 625px;
+    }
+#box9 {
+  top: 700px;
+    }

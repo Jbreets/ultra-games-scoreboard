@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+    height: 100vh;
+}
+.head {
+    background-color: rgb(52, 54, 56);
+    padding: 30px;
+
+}
+.header {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    
+}
+.container {
+    max-width: 600px;
+}
+p {
+    margin: 0;
+}
+.status {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.form {
+    text-align: center;
+    margin: auto;
+}
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    justify-content: flex-start;
+    margin-top: 90px;
+}
+#results {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 30px;
+    width: fit-content;
+    margin:auto ;
+
+}
+.headers {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 30px;
+    width: fit-content;
+    margin:auto;
+}
+.home {
+    text-decoration: none;
+    color: gray;
+}
+.cat-box {
+    border: 2px solid black;
+    height: 650px;
+    
+}
+.gone-out {
+    /* border: 2px solid black; */
+    height: auto;
+    width: 100px;
+    background-color: white;
+    /* border-bottom: 2px solid black; */
+}
+.kit {
+    /* border-left: 2px solid black; */
+    height: auto;
+    background-color: white;
+    
+    
+}    
+.come-back {
+    /* border: 2px solid black; */
+    height: auto;
+    width: 100px;
+    background-color: white;
+    /* border-bottom: 2px solid black; */
+}
+.missing {
+    background-color: rgb(211, 7, 7, .6);
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+.returned {
+    background-color: rgb(23, 194, 0, .6);
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+.gon {
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.cat {
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.blank {
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 14px;
+}
+.blank_r {
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 14px;
+}
+.other-missing {
+    border: solid black 2px;
+    display: block;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+}
+.k-head{
+    padding: 5px;
+}
+.question {
+    border: 2px solid black;
+    padding: 1px;
+    /* min-width: 250px; */
+    
+    }
+.answer {
+    border: 2px solid black;
+    padding: 2px;
+    /* min-width: 250px; */
+}
+.sub-head {
+    border: 2px solid black;
+    border-bottom: 0px solid black;
+    background-color: gray;
+    padding: 5px;
+}
+.grid-head {
+    border: 2px solid black;
+    border-bottom: 0px solid black;
+    background-color: gray;
+    padding: 5px;
+    text-align: center;
+}
+.submit {
+    border-top: 2px solid black;
+    padding: 10px;
+    min-width: 250px;
+}
+.grid-box {
+    max-width: 600px;
+    background-color: rgb(219, 219, 214);
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    height: auto;
+    margin-top: 35px;
+    box-shadow: 0px 3px 10px 1px;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 2px, solid, black;
+}
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.costs-grid {
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    border: 2px solid black;
+}
+#kit {
+    background-color:  rgb(219, 219, 214);
+    border-bottom: 2px solid black;
+    padding: 5px;
+
+}
+#kgone {
+    background-color:  rgb(219, 219, 214);
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+#kback {
+    background-color:  rgb(219, 219, 214);
+    border-bottom: 2px solid black;
+    padding: 5px;
+}

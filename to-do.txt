@@ -1,0 +1,15 @@
+- database connection function rather than keep repeating the connection. Done in authticate as an example.
+- Replace all db connections with new function.
+- Swap PDO db connections to mysqli to be consistant.
+- Functions should only redirect or return data.
+- If you login, then go back to the index.php it logs you out and you need to login again. You should stay logged in until it times out or user clicks logout. - should be correct check echoes
+- add date and time score was submitted.
+- Adding score for the same "WOD" will update it, not add a new score.
+edit mobile name so its suitable for any device
+
+Improvements
+- Create a funtion that updates options. Take parameter for option name and option value.
+-potentiall alter height of boxes depending on what the final screensize may be 
+-change password.php is messy and needs refactoring (functional other than that) 
+    -if code is changed(too many redirects)
+-fix paths with images for replace pass
