@@ -4,17 +4,10 @@ function db_conn() {
    // live connection
    
  // xampp connection (ubuntu)
-      // $db_host = 'localhost';
-      // $db_user = 'jack';
-      // $db_password = '';
-      // $db_name = 'ug_leaderboard'; 
-
-
- // dev connection 
-      $db_host = 'vps196.opalstack.com';
-      $db_user = 'ug_lb_user';
-      $db_password = 'CE0s07EEAfpLm2IB';
-      $db_name = 'ug_leaderboard';
+       $db_host = 'localhost';
+       $db_user = 'jack';
+       $db_password = '';
+       $db_name = 'ug_leaderboard'; 
 
       $con = mysqli_connect($db_host, $db_user, $db_password, $db_name);
 
